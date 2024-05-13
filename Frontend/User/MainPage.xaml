@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Frontend.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label
+                x:Name="Hello"
+                Text="Good Morning"
+                FontSize="40"
+                Margin="0,40,0,-5"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Please check in/out or register"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="22"
+                
+                HorizontalOptions="Center" />
+            <Image
+                Source="dotnet_bot.svg"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+
+            <Label
+                Text="Input your code to check in/out"
+                SemanticProperties.HeadingLevel="Level2"
+                FontSize="22"
+                HorizontalOptions="Center" />
+
+
+            <Entry x:Name="Entry"
+                   Placeholder="Code"
+                   WidthRequest="150" HeightRequest="50"
+                   HorizontalTextAlignment="Center"
+                   FontSize="22"
+                   Keyboard="Numeric"
+                   
+                />
+            <Button Text="Submit"
+                    FontSize="18"
+                    Clicked="Submit_Code"
+                    HorizontalOptions="Center"
+                    WidthRequest="150" HeightRequest="60"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

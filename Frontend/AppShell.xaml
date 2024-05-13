@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell 
+    x:Class="Frontend.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Frontend"
+    Shell.FlyoutBehavior="Disabled">
+    
+    <FlyoutItem Title="Main Elements">
+        <Tab Title="Menu" x:Name="MainMenu" x:FieldModifier="public">
+            <ShellContent  Route="MainPage" ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+        <Tab Title="Register" x:Name="RegisterMenu" x:FieldModifier="public">
+            <ShellContent Route="RegisterPage" ContentTemplate="{DataTemplate local:RegisterPage}" />
+        </Tab>
+        <!-- Always show the Menu, Register, and Admin tabs -->
+
+
+    </FlyoutItem>
+
+    <FlyoutItem Title="Admin Elements">
+        
+        <Tab Title="Admin" x:Name="AdminMenu" x:FieldModifier="public">
+            <ShellContent IsEnabled="True"  Route="AdminPage"  ContentTemplate="{DataTemplate local:AdminPage}" />
+        </Tab>
+
+        <Tab Title="Employees" x:Name="AdminEmployees" x:FieldModifier="public">
+            <ShellContent Route="AdminEmployees" ContentTemplate="{DataTemplate local:AdminEmployees}" />
+        </Tab>
+        <Tab Title="Statistics"  x:Name="AdminStatisticsTab" x:FieldModifier="public">
+            <ShellContent Route="AdminStatistics"  ContentTemplate="{DataTemplate local:AdminStatistics}" />
+        </Tab>
+        <Tab Title="Jobs"  x:Name="AdminJobsTab" x:FieldModifier="public">
+            <ShellContent Route="AdminJobs" ContentTemplate="{DataTemplate local:AdminJobs}" />
+        </Tab>
+
+    </FlyoutItem>
+
+</Shell>

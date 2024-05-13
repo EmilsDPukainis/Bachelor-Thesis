@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Frontend.AdminJobs"
+             Title="AdminJobs">
+    
+    <ScrollView>
+            <StackLayout  >
+                <Label 
+            Text="Welcome to Job Management"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="25"
+            Margin="0,20,0,0"/>
+
+                <Label 
+            Text="Here you can add, remove or reset jobs"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="20"
+            Margin="0,40,0,0"/>
+
+                <Grid Padding="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="auto" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- First Row: Picker and Remove Job Button -->
+                    <Picker x:Name="Job"
+                        Grid.Row="0" Grid.Column="0"
+                        Title="Select a Job"
+                        VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                        WidthRequest="200"
+                        HeightRequest="70"
+                    
+                        Margin="30,60,0,0"/>
+
+                    <Button Text="Remove Job"
+                        Clicked="Remove_Job"
+                        Grid.Row="0" Grid.Column="1"
+                        Margin="10,70,0,0"
+                        HorizontalOptions="StartAndExpand"
+                        VerticalOptions="Center" />
+
+                    <!-- Second Row: Entry and Add Job Button -->
+                    <Entry x:Name="JobEntry"
+                       Grid.Row="1" Grid.Column="0" 
+                       Placeholder="Enter Job Title"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" 
+                       WidthRequest="200"
+                       HeightRequest="40"
+                       Margin="30,50,0,0"/>
+
+                    <Button Text="Add Job"
+                       Clicked="Add_Job"
+                       Grid.Row="2" Grid.Column="1" 
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" 
+                       Margin="10,50,0,0"/>
+
+                </Grid>
+                <Label Text="To Reset All Registered Jobs," VerticalOptions="Center" Margin="0,60,0,0" HorizontalOptions="Center" FontSize="20"/>
+                <Label Text="Press the Button Bellow" VerticalOptions="Center" HorizontalOptions="Center"  FontSize="20"/>
+
+                <Button Text="Reset Jobs"
+                       Clicked="Reset_Jobs"
+                       Grid.Row="1" Grid.Column="1" 
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Margin="0,60,0,0"/>
+
+            </StackLayout>
+        </ScrollView>
+ 
+
+</ContentPage>

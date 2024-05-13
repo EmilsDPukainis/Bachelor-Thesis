@@ -1,0 +1,1 @@
+C:\Users\epuka\source\repos\Bachelor\Frontend\Frontend.csproj;x64

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uranium:UraniumContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Frontend.Admin.AdminStatisticsName"
+             xmlns:uranium="http://schemas.enisn-projects.io/dotnet/maui/uraniumui"
+             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material">
+    <StackLayout x:Name="stackLayout">
+        <Label Text="For easier viewing, turn your device horizontally"
+           x:Name="Label1"
+           Margin="0,10,0,10"
+           FontSize="16"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Label Text="{Binding UserFullName}"
+           x:Name="Label2"
+           Margin="0,10,0,0"
+           FontSize="20"
+           FontAttributes="Bold"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+        <ScrollView Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <ScrollView Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+
+                <material:DataGrid ItemsSource="{Binding CheckIns}" HorizontalOptions="Center" BorderColor="Black" Margin="0,10,0,10">
+                    <material:DataGrid.Columns>
+                        <material:DataGridColumn Binding="{Binding CheckInDate}" Title="Date"/>
+                        <material:DataGridColumn Binding="{Binding CheckedIn}" Title="Checked In"/>
+                        <material:DataGridColumn Binding="{Binding CheckedOut}" Title="Checked Out"/>
+                        <material:DataGridColumn Binding="{Binding TotalHours}" Title="Total Hours" />
+                        <material:DataGridColumn Binding="{Binding Location}" Title="Location" />
+                        <material:DataGridColumn Binding="{Binding Status}" Title="Status" />
+                    </material:DataGrid.Columns>
+                </material:DataGrid>
+                
+            </ScrollView>
+        </ScrollView>
+        <Button Text="Back"
+                        Clicked="BackButton_Clicked"
+                        Margin="10,0,0,0"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center" />
+    </StackLayout>
+</uranium:UraniumContentPage>

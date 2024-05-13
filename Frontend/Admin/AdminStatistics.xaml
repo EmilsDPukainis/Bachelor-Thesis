@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ <uranium:UraniumContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Frontend.AdminStatistics"
+             xmlns:uranium="http://schemas.enisn-projects.io/dotnet/maui/uraniumui"
+             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+                              x:Name="AdminStatisticsPage">
+   
+        
+    <StackLayout>
+        <Label 
+            Text="Welcome to Employee Statistics"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="25"
+            Margin="0,50,0,0"/>
+        <Label 
+            Text="Select an employee to see their statistics"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="20"
+            Margin="0,30,0,0"/>
+        <ScrollView Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <material:DataGrid ItemsSource="{Binding Users}" HorizontalOptions="CenterAndExpand" BorderColor="Black" Margin="0,20,0,10">
+                <material:DataGrid.Columns>
+                    <material:DataGridColumn Title="Name" Width="150">
+                        <material:DataGridColumn.CellItemTemplate>
+                            <DataTemplate>
+                                <Button Text="{Binding Name}" Command="{Binding Path=BindingContext.EmployeeButtonCommand, Source={x:Reference Name=AdminStatisticsPage}}" CommandParameter="{Binding .}" HeightRequest="50"/>
+                            </DataTemplate>
+                        </material:DataGridColumn.CellItemTemplate>
+                    </material:DataGridColumn>
+                </material:DataGrid.Columns>
+            </material:DataGrid>
+        </ScrollView>
+    </StackLayout>
+
+</uranium:UraniumContentPage>

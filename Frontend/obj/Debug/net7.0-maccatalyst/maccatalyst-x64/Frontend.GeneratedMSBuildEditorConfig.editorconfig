@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Frontend
+build_property.ProjectDir = C:\Users\epuka\source\repos\Bachelor\Frontend\
+
+[C:/Users/epuka/source/repos/Bachelor/Frontend/Admin/AdminEmployees.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Frontend.Admin.AdminEmployees.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\AdminEmployees.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\AdminEmployees.xaml
+
+[C:/Users/epuka/source/repos/Bachelor/Frontend/Admin/AdminJobs.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Frontend.Admin.AdminJobs.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\AdminJobs.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\AdminJobs.xaml
+
+[C:/Users/epuka/source/repos/Bachelor/Frontend/Admin/AdminPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Frontend.Admin.AdminPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\AdminPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\AdminPage.xaml
+
+[C:/Users/epuka/source/repos/Bachelor/Frontend/Admin/AdminStatistics.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Frontend.Admin.AdminStatistics.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\AdminStatistics.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\AdminStatistics.xaml
+
+[C:/Users/epuka/source/repos/Bachelor/Frontend/Admin/AdminStatisticsName.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Frontend.Admin.AdminStatisticsName.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\AdminStatisticsName.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\AdminStatisticsName.xaml
+
+[C:/Users/epuka/source/repos/Bachelor/Frontend/Admin/AdminTutorial.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Frontend.Admin.AdminTutorial.xaml
+build_metadata.AdditionalFiles.TargetPath = Admin\AdminTutorial.xaml
+build_metadata.AdditionalFiles.RelativePath = Admin\AdminTutorial.xaml
+
+[C:/Users/epuka/source/repos/Bachelor/Frontend/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Frontend.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/epuka/source/repos/Bachelor/Frontend/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Frontend.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/epuka/source/repos/Bachelor/Frontend/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Frontend.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/epuka/source/repos/Bachelor/Frontend/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Frontend.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/epuka/source/repos/Bachelor/Frontend/User/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Frontend.User.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = User\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = User\MainPage.xaml
+
+[C:/Users/epuka/source/repos/Bachelor/Frontend/User/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Frontend.User.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = User\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = User\RegisterPage.xaml
