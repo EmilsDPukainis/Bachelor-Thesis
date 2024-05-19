@@ -53,6 +53,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Include="..\AdminCode.cs" Link="AdminCode.cs" />
 	  <Compile Include="..\BaseURL.cs" Link="BaseURL.cs" />
 	  <Compile Include="..\CheckIns.cs" Link="CheckIns.cs" />
 	  <Compile Include="..\Items.cs" Link="Items.cs" />
@@ -84,9 +85,6 @@
 	  <MauiXaml Update="Admin\AdminStatisticsName.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Admin\AdminTutorial.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="App.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -99,11 +97,6 @@
 	  <MauiXaml Update="User\RegisterPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Utilities\" />
-	  <Folder Include="ViewModels\" />
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'net7.0-ios'">

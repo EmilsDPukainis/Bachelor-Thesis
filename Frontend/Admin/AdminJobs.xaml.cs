@@ -59,7 +59,7 @@ public partial class AdminJobs : ContentPage
             response.EnsureSuccessStatusCode();
 
             await DisplayAlert("Success", "Job removed successfully.", "OK");
-            LoadJobs(); // Reload jobs after removal
+            LoadJobs();
         }
         catch (Exception ex)
         {
@@ -73,14 +73,12 @@ public partial class AdminJobs : ContentPage
         {
             var newJobTitle = JobEntry.Text.Trim();
 
-            // Check for empty job title
             if (string.IsNullOrWhiteSpace(newJobTitle))
             {
                 await DisplayAlert("Error", "Please enter a job title.", "OK");
                 return;
             }
 
-            // Check if the job title already exists
             var jobExistsResponse = await _httpClient.GetAsync($"{ApiBaseUrl}/jobs/check?title={Uri.EscapeDataString(newJobTitle)}");
             if (jobExistsResponse.IsSuccessStatusCode)
             {
@@ -88,15 +86,14 @@ public partial class AdminJobs : ContentPage
                 return;
             }
 
-            // Add the job using the API
             var content = new StringContent(JsonSerializer.Serialize(newJobTitle), System.Text.Encoding.UTF8, "application/json");
             var addJobResponse = await _httpClient.PostAsync($"{ApiBaseUrl}/jobs", content);
 
             if (addJobResponse.IsSuccessStatusCode)
             {
                 await DisplayAlert("Success", "Job added successfully.", "OK");
-                JobEntry.Text = string.Empty; // Clear the entry after successful addition
-                LoadJobs(); // Reload jobs after addition
+                JobEntry.Text = string.Empty;
+                LoadJobs();
             }
             else
             {
@@ -117,7 +114,7 @@ public partial class AdminJobs : ContentPage
             response.EnsureSuccessStatusCode();
 
             await DisplayAlert("Success", "Jobs reset successfully.", "OK");
-            LoadJobs(); // Reload jobs after reset
+            LoadJobs();
         }
         catch (Exception ex)
         {

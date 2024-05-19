@@ -12,18 +12,22 @@ public partial class RegisterPage : ContentPage
     private readonly HttpClient _httpClient = new HttpClient();
     private string ApiBaseUrl => $"{BaseURL.APIBaseURL}";
     public ObservableCollection<string> Jobs { get; set; } = new ObservableCollection<string>();
-    public bool IsAdminPage { get; } = false; // For non-admin pages
 
     public RegisterPage()
     {
         InitializeComponent();
-        BindingContext = this; // Set the BindingContext to the current page instance
-        InitializeAsync(); // Call an async method to perform initialization
+        BindingContext = this; 
+        InitializeAsync(); 
 
+    }
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        InitializeAsync();
     }
     private async void InitializeAsync()
     {
-        await LoadJobs(); // Await the LoadJobs method
+        await LoadJobs(); 
     }
 
     private async Task LoadJobs()
@@ -67,7 +71,6 @@ public partial class RegisterPage : ContentPage
         string firstName = FirstName.Text;
         string lastName = LastName.Text;
 
-        // Validate first name, last name, and selected job
         if (string.IsNullOrWhiteSpace(firstName) || string.IsNullOrWhiteSpace(lastName))
         {
             await DisplayAlert("Error", "Please fill in all fields", "OK");
@@ -90,8 +93,8 @@ public partial class RegisterPage : ContentPage
             Name = firstName,
             Surname = lastName,
             Job = selectedJob,
-            Time = DateTime.Now.ToString("HH:mm"), // Set current time in 24-hour format
-            Date = DateTime.Today.ToString("dd-MM-yyyy") // Set current date in dd-MM-yyyy format
+            Time = DateTime.Now.ToString("HH:mm"), 
+            Date = DateTime.Today.ToString("dd-MM-yyyy") 
 
     };
 
@@ -108,10 +111,9 @@ public partial class RegisterPage : ContentPage
 
                 await DisplayAlert("Success", $"Registration successful!\nYour Code Is: {responseObject.registrationCode}\nSave it, as you won't see it anymore", "OK");
 
-                // Reset form after successful submission
                 FirstName.Text = string.Empty;
                 LastName.Text = string.Empty;
-                Job.SelectedItem = null; // Clear job selection
+                Job.SelectedItem = null; 
             }
             else
             {

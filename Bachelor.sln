@@ -12,13 +12,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared.Models", "Shared.Models", "{B2C31402-7509-4394-88E5-1E3E90457FF3}"
 	ProjectSection(SolutionItems) = preProject
 		CheckIns.cs = CheckIns.cs
-		Items.cs = Items.cs
 		Jobs.cs = Jobs.cs
 		Users.cs = Users.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared.Other", "Shared.Other", "{0ACBDB89-05AB-4F0E-80C5-34A0AFC0CFD9}"
 	ProjectSection(SolutionItems) = preProject
+		AdminCode.cs = AdminCode.cs
 		BaseURL.cs = BaseURL.cs
 	EndProjectSection
 EndProject

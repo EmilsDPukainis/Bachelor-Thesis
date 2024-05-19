@@ -1,0 +1,563 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\epuka\\source\\repos\\Bachelor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\frontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\frontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\admin\\adminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\admin\\adminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\admin\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\admin\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\admin\\adminpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\admin\\adminpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\admin\\adminstatisticsname.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\admin\\adminstatisticsname.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201A9F90-B4D2-49EC-8E82-E99CD10C981E}|Backend\\Backend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{201A9F90-B4D2-49EC-8E82-E99CD10C981E}|Backend\\Backend.csproj|solutionrelative:backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\admin\\adminstatistics.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\admin\\adminstatistics.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\admin\\adminemployees.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\admin\\adminemployees.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\user\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\user\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\user\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\user\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\appshell.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\appshell.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\user\\registerpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\user\\registerpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\checkins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:checkins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\admin\\adminstatisticsname.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\admin\\adminstatisticsname.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201A9F90-B4D2-49EC-8E82-E99CD10C981E}|Backend\\Backend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\backend\\controllers\\checkinscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201A9F90-B4D2-49EC-8E82-E99CD10C981E}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\checkinscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\admincode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:admincode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\services\\locationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\services\\locationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201A9F90-B4D2-49EC-8E82-E99CD10C981E}|Backend\\Backend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201A9F90-B4D2-49EC-8E82-E99CD10C981E}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\admin\\adminjobs.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\admin\\adminjobs.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\baseurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:baseurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201A9F90-B4D2-49EC-8E82-E99CD10C981E}|Backend\\Backend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{201A9F90-B4D2-49EC-8E82-E99CD10C981E}|Backend\\Backend.csproj|solutionrelative:backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\admin\\adminstatistics.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\admin\\adminstatistics.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\admin\\adminjobs.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\admin\\adminjobs.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\admin\\adminemployees.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\admin\\adminemployees.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\user\\mainpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\user\\mainpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\frontend\\app.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:frontend\\app.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC86524-174F-4225-A5FC-F7654FD93866}|Frontend\\Frontend.csproj|solutionrelative:items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201A9F90-B4D2-49EC-8E82-E99CD10C981E}|Backend\\Backend.csproj|c:\\users\\epuka\\source\\repos\\bachelor\\backend\\backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{201A9F90-B4D2-49EC-8E82-E99CD10C981E}|Backend\\Backend.csproj|solutionrelative:backend\\backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Frontend",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Frontend.csproj",
+              "RelativeDocumentMoniker": "Frontend\\Frontend.csproj",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Frontend.csproj",
+              "RelativeToolTip": "Frontend\\Frontend.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-18T18:00:34.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminPage.xaml",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminPage.xaml",
+              "RelativeDocumentMoniker": "Frontend\\Admin\\AdminPage.xaml",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminPage.xaml",
+              "RelativeToolTip": "Frontend\\Admin\\AdminPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-18T16:42:28.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminPage.xaml.cs",
+              "RelativeDocumentMoniker": "Frontend\\Admin\\AdminPage.xaml.cs",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminPage.xaml.cs",
+              "RelativeToolTip": "Frontend\\Admin\\AdminPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T14:03:46.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\User\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "Frontend\\User\\RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\User\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "Frontend\\User\\RegisterPage.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwCEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T15:00:55.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminEmployees.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminEmployees.xaml.cs",
+              "RelativeDocumentMoniker": "Frontend\\Admin\\AdminEmployees.xaml.cs",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminEmployees.xaml.cs",
+              "RelativeToolTip": "Frontend\\Admin\\AdminEmployees.xaml.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAADwv3kAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T11:03:14.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminStatistics.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminStatistics.xaml.cs",
+              "RelativeDocumentMoniker": "Frontend\\Admin\\AdminStatistics.xaml.cs",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminStatistics.xaml.cs",
+              "RelativeToolTip": "Frontend\\Admin\\AdminStatistics.xaml.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAswDYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T11:18:33.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminStatisticsName.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminStatisticsName.xaml.cs",
+              "RelativeDocumentMoniker": "Frontend\\Admin\\AdminStatisticsName.xaml.cs",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminStatisticsName.xaml.cs",
+              "RelativeToolTip": "Frontend\\Admin\\AdminStatisticsName.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAYwA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T20:03:38.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminPage.xaml",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminPage.xaml",
+              "RelativeDocumentMoniker": "Frontend\\Admin\\AdminPage.xaml",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminPage.xaml",
+              "RelativeToolTip": "Frontend\\Admin\\AdminPage.xaml",
+              "ViewState": "AQIAAA4AAAAAAAAAAABRwCAAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-02T21:18:19.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Frontend\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\AppShell.xaml",
+              "RelativeToolTip": "Frontend\\AppShell.xaml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwBsAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-02T14:57:31.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\User\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "Frontend\\User\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\User\\RegisterPage.xaml",
+              "RelativeToolTip": "Frontend\\User\\RegisterPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-15T14:23:37.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Backend.csproj",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Backend\\Backend.csproj",
+              "RelativeDocumentMoniker": "Backend\\Backend.csproj",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Backend\\Backend.csproj",
+              "RelativeToolTip": "Backend\\Backend.csproj",
+              "ViewState": "AQIAAAIAAAAAAAAAAABRwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-02T10:27:26.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\User\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Frontend\\User\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\User\\MainPage.xaml.cs",
+              "RelativeToolTip": "Frontend\\User\\MainPage.xaml.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAmwCoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T20:57:00.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminStatisticsName.xaml",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminStatisticsName.xaml",
+              "RelativeDocumentMoniker": "Frontend\\Admin\\AdminStatisticsName.xaml",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminStatisticsName.xaml",
+              "RelativeToolTip": "Frontend\\Admin\\AdminStatisticsName.xaml",
+              "ViewState": "AQIAAAUAAAAAAAAAAIBZwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-15T15:31:26.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Users.cs",
+              "RelativeDocumentMoniker": "Users.cs",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Users.cs",
+              "RelativeToolTip": "Users.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwCkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T12:25:47.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CheckIns.cs",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\CheckIns.cs",
+              "RelativeDocumentMoniker": "CheckIns.cs",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\CheckIns.cs",
+              "RelativeToolTip": "CheckIns.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T09:57:14.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CheckInsController.cs",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Backend\\Controllers\\CheckInsController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\CheckInsController.cs",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Backend\\Controllers\\CheckInsController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\CheckInsController.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAwwIwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T11:57:50.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminCode.cs",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\AdminCode.cs",
+              "RelativeDocumentMoniker": "AdminCode.cs",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\AdminCode.cs",
+              "RelativeToolTip": "AdminCode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:11:05.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "Frontend\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\AppShell.xaml.cs",
+              "RelativeToolTip": "Frontend\\AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T20:52:22.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Frontend\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\App.xaml.cs",
+              "RelativeToolTip": "Frontend\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:59:43.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LocationHelper.cs",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Services\\LocationHelper.cs",
+              "RelativeDocumentMoniker": "Frontend\\Services\\LocationHelper.cs",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Services\\LocationHelper.cs",
+              "RelativeToolTip": "Frontend\\Services\\LocationHelper.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBsAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:28:55.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwCgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T11:56:16.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminJobs.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminJobs.xaml.cs",
+              "RelativeDocumentMoniker": "Frontend\\Admin\\AdminJobs.xaml.cs",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminJobs.xaml.cs",
+              "RelativeToolTip": "Frontend\\Admin\\AdminJobs.xaml.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAADwv4AAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T15:23:09.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BaseURL.cs",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\BaseURL.cs",
+              "RelativeDocumentMoniker": "BaseURL.cs",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\BaseURL.cs",
+              "RelativeToolTip": "BaseURL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T11:49:14.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Backend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Backend\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-05T21:50:43.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminStatistics.xaml",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminStatistics.xaml",
+              "RelativeDocumentMoniker": "Frontend\\Admin\\AdminStatistics.xaml",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminStatistics.xaml",
+              "RelativeToolTip": "Frontend\\Admin\\AdminStatistics.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-05T22:08:33.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Frontend\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Frontend\\Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-05-17T10:43:09.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AdminEmployees.xaml",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminEmployees.xaml",
+              "RelativeDocumentMoniker": "Frontend\\Admin\\AdminEmployees.xaml",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminEmployees.xaml",
+              "RelativeToolTip": "Frontend\\Admin\\AdminEmployees.xaml",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBZwAMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-05T22:11:49.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AdminJobs.xaml",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminJobs.xaml",
+              "RelativeDocumentMoniker": "Frontend\\Admin\\AdminJobs.xaml",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\Admin\\AdminJobs.xaml",
+              "RelativeToolTip": "Frontend\\Admin\\AdminJobs.xaml",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBZwAMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-05T22:10:35.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\User\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Frontend\\User\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\User\\MainPage.xaml",
+              "RelativeToolTip": "Frontend\\User\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-10T10:15:49.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\App.xaml",
+              "RelativeDocumentMoniker": "Frontend\\App.xaml",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Frontend\\App.xaml",
+              "RelativeToolTip": "Frontend\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-14T19:01:15.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Items.cs",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Items.cs",
+              "RelativeDocumentMoniker": "Items.cs",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Items.cs",
+              "RelativeToolTip": "Items.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T11:56:23.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Backend",
+              "DocumentMoniker": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Backend\\Backend.csproj",
+              "RelativeDocumentMoniker": "Backend\\Backend.csproj",
+              "ToolTip": "C:\\Users\\epuka\\source\\repos\\Bachelor\\Backend\\Backend.csproj",
+              "RelativeToolTip": "Backend\\Backend.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-13T19:07:31.012Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

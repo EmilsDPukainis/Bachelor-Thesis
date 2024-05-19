@@ -2,9 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Shared.Models;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+using Shared.Other;
 
 namespace Backend.Controllers
 {
@@ -50,26 +48,15 @@ namespace Backend.Controllers
             {
                 return BadRequest("Name or Surname is missing");
             }
-
-            if (_dbContext.Users.Any(u => u.Name == user.Name))
-            {
-                return Conflict("Name already exists");
-            }
-            if (_dbContext.Users.Any(u => u.Surname == user.Surname))
-            {
-                return Conflict("Surname already exists");
-            }
-
             Random random = new Random();
             int registrationCode;
             bool isCodeUnique = false;
 
             do
             {
-                registrationCode = random.Next(1000, 9999);  // Generate a 4-digit random integer
+                registrationCode = random.Next(1000, 9999); 
 
-                // Check if the generated code already exists in the database
-                isCodeUnique = !_dbContext.Users.Any(u => u.Code == registrationCode);
+                isCodeUnique = !_dbContext.Users.Any(u => u.Code == registrationCode && !AdminCode.IsAdminCode(registrationCode.ToString()));
             }
             while (!isCodeUnique);
 
@@ -78,9 +65,9 @@ namespace Backend.Controllers
                 Name = user.Name,
                 Surname = user.Surname,
                 Job = user.Job,
-                Code = registrationCode , // Assign the generated registration code
-                Time = DateTime.Now.ToString("HH:mm"), // Set current time in 24-hour format
-                Date = DateTime.Today.ToString("dd-MM-yyyy") // Set current date in dd-MM-yyyy format
+                Code = registrationCode , 
+                Time = DateTime.Now.ToString("HH:mm"), 
+                Date = DateTime.Today.ToString("dd-MM-yyyy") 
 
             };
 
@@ -122,12 +109,10 @@ namespace Backend.Controllers
         {
             try
             {
-                // Delete all existing users
                 var users = await _dbContext.Users.ToListAsync();
                 _dbContext.Users.RemoveRange(users);
                 await _dbContext.SaveChangesAsync();
 
-                // Return an empty list of users
                 return Ok(new List<string>());
             }
             catch (Exception ex)

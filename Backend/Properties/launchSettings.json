@@ -14,7 +14,7 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "http://46.109.68.210:3001",
+      "applicationUrl": "http://81.198.240.228:3001", //in command prompt write ipconfig and put the IPv4 address in place of the current, like 81.198.240.228
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

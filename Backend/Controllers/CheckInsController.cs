@@ -1,9 +1,6 @@
-﻿using Azure.Core;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Shared.Models;
-using Xamarin.Essentials;
 
 namespace Backend.Controllers
 {
@@ -69,14 +66,11 @@ namespace Backend.Controllers
                 }
                 else
                 {
-                    // Update existing check-in entry
                     userCheckIn.CheckedOut = 1;
                     userCheckIn.CheckOutTime = DateTime.Now.ToString("HH:mm");
 
-                    // Check if the check-out date is different from the check-in date
                     if (DateTime.Today.ToString("dd-MM-yyyy") != userCheckIn.CheckInDate)
                     {
-                        // Update status to indicate late check-out
                         userCheckIn.Status = "Late";
 
                         _dbContext.SaveChanges();
@@ -87,12 +81,9 @@ namespace Backend.Controllers
                     else
                     {
 
-                        // Calculate total hours
                         TimeSpan totalHours = DateTime.Parse(userCheckIn.CheckOutTime).Subtract(DateTime.Parse(userCheckIn.CheckInTime));
 
-                        // Convert total hours to string with custom format (hours only)
-                        string formattedTotalHours = totalHours.ToString("hh"); // Using "hh" for hours only in 12-hour format, or "HH" for 24-hour format
-                        // Determine status based on total hours
+                        string formattedTotalHours = totalHours.ToString("hh");
                         string status;
                         if (totalHours.TotalHours < 8)
                         {

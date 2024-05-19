@@ -44,12 +44,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = Frontend.Admin.AdminStatis
 build_metadata.AdditionalFiles.TargetPath = Admin\AdminStatisticsName.xaml
 build_metadata.AdditionalFiles.RelativePath = Admin\AdminStatisticsName.xaml
 
-[C:/Users/epuka/source/repos/Bachelor/Frontend/Admin/AdminTutorial.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Frontend.Admin.AdminTutorial.xaml
-build_metadata.AdditionalFiles.TargetPath = Admin\AdminTutorial.xaml
-build_metadata.AdditionalFiles.RelativePath = Admin\AdminTutorial.xaml
-
 [C:/Users/epuka/source/repos/Bachelor/Frontend/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Frontend.App.xaml

@@ -35,8 +35,7 @@ public partial class AdminStatistics : UraniumContentPage, INotifyPropertyChange
         Users = new ObservableCollection<User>();
         EmployeeButtonCommand = new Command<User>(EmployeeButton_Clicked);
 
-        BindingContext = this; // Set the binding context to the current instance of AdminPage
-        LoadUsersAsync();
+        BindingContext = this;
     }
 
 
@@ -77,12 +76,10 @@ public partial class AdminStatistics : UraniumContentPage, INotifyPropertyChange
 
 private async void EmployeeButton_Clicked(User user)
 {
-    // Extract the user ID and name
     var userId = user.Id;
     var userName = user.Name;
     var userFullName = user.FullName;
 
-    // Navigate to AdminStatisticsName page, passing userId and userName as parameters
     await Navigation.PushAsync(new AdminStatisticsName(userId, userName, userFullName));
 }
 }

@@ -3,7 +3,6 @@ using Shared.Models;
 using Shared.Other;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Net.Http.Json;
 using UraniumUI.Pages;
 
 namespace Frontend.Admin;
@@ -25,7 +24,6 @@ public partial class AdminStatisticsName : UraniumContentPage, INotifyPropertyCh
     }
 
     private string _userName;
-    private string UserFullName;
     public string UserName
     {
         get { return _userName; }
@@ -35,13 +33,24 @@ public partial class AdminStatisticsName : UraniumContentPage, INotifyPropertyCh
             OnPropertyChanged(nameof(UserName));
         }
     }
+    private string _userFullNAme;
+
+    public string UserFullName
+    {
+        get { return _userFullNAme; }
+        set
+        {
+            _userFullNAme = value;
+            OnPropertyChanged(nameof(UserFullName));
+        }
+    }
     public event PropertyChangedEventHandler PropertyChanged;
 
     public AdminStatisticsName(int userId, string userName, string userFullName)
     {
         InitializeComponent();
         CheckIns = new ObservableCollection<CheckIns>();
-        BindingContext = this; // Set the binding context to the current instance of AdminPage
+        BindingContext = this;
         UserId = userId;
         UserName = userName;
         UserFullName = userFullName;
@@ -74,7 +83,7 @@ public partial class AdminStatisticsName : UraniumContentPage, INotifyPropertyCh
                     VerticalOptions = LayoutOptions.Center,
                     HorizontalOptions = LayoutOptions.Center
                 };
-                stackLayout.Children.Insert(0, Label1); // Insert at index 0
+                stackLayout.Children.Insert(0, Label1);
             }
 
         }
@@ -110,7 +119,6 @@ public partial class AdminStatisticsName : UraniumContentPage, INotifyPropertyCh
 
     private async void BackButton_Clicked(object sender, EventArgs e)
     {
-        // Navigate back to AdminStatistics page
         await Navigation.PopAsync();
     }
 }

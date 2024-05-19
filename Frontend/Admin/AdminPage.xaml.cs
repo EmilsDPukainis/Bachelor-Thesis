@@ -1,18 +1,16 @@
-using Microsoft.Maui.Graphics;
 using Newtonsoft.Json;
 using Shared.Models;
 using Shared.Other;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Text.Json;
 using UraniumUI.Pages;
 
 namespace Frontend;
 
-public partial class AdminPage : UraniumContentPage
+public partial class AdminPage : UraniumContentPage, INotifyPropertyChanged
 {
 
-    public event PropertyChangedEventHandler PropertyChanged;
+    public new event PropertyChangedEventHandler PropertyChanged;
     private ObservableCollection<User> _users;
     public ObservableCollection<User> Users
     {
@@ -27,28 +25,21 @@ public partial class AdminPage : UraniumContentPage
     private string ApiBaseUrl => $"{BaseURL.APIBaseURL}";
 
     private readonly HttpClient _httpClient = new HttpClient();
-    public ObservableCollection<User> User { get; set; }
     public AdminPage()
-	{
-		InitializeComponent();
-
-        User = new ObservableCollection<User>();
-
-        BindingContext = this; // Set the binding context to the current instance of AdminPage
-        LoadUsers();
-
+    {
+        InitializeComponent();
+       // BindingContext = this;
+        //LoadUsers();
+        
     }
 
     protected override void OnAppearing()
     {
         base.OnAppearing();
         Shell.SetFlyoutBehavior(this, FlyoutBehavior.Flyout);
-        if (DataGrid != null)
-        {
-            // Call the method to load users
-            LoadUsers();
-        }
+        BindingContext = this;
 
+        LoadUsers();
     }
 
 
@@ -91,7 +82,7 @@ public partial class AdminPage : UraniumContentPage
                     VerticalOptions = LayoutOptions.Center,
                     HorizontalOptions = LayoutOptions.Center
                 };
-                stackLayout.Children.Insert(0, Label1); // Insert at index 0
+                stackLayout.Children.Insert(0, Label1);
             }
 
             if (Label2 == null)
@@ -104,7 +95,7 @@ public partial class AdminPage : UraniumContentPage
                     VerticalOptions = LayoutOptions.Center,
                     HorizontalOptions = LayoutOptions.Center
                 };
-                stackLayout.Children.Insert(1, Label2); // Insert at index 1
+                stackLayout.Children.Insert(1, Label2);
             }
             if (Label3 == null)
             {
@@ -116,7 +107,7 @@ public partial class AdminPage : UraniumContentPage
                     VerticalOptions = LayoutOptions.Center,
                     HorizontalOptions = LayoutOptions.Center
                 };
-                stackLayout.Children.Insert(2, Label3); // Insert at index 1
+                stackLayout.Children.Insert(2, Label3);
             }
         }
     }
@@ -126,8 +117,9 @@ public partial class AdminPage : UraniumContentPage
 
 
 
-    private async Task LoadUsers()
+    private async void LoadUsers()
     {
+
         try
         {
             var response = await _httpClient.GetAsync($"{ApiBaseUrl}/users");
@@ -135,6 +127,7 @@ public partial class AdminPage : UraniumContentPage
 
             var content = await response.Content.ReadAsStringAsync();
             var users = JsonConvert.DeserializeObject<ObservableCollection<User>>(content);
+
 
             DataGrid.ItemsSource = users;
         }
@@ -145,10 +138,7 @@ public partial class AdminPage : UraniumContentPage
     }
 
 
-
-
-
-    protected virtual void OnPropertyChanged(string propertyName)
+    protected override void OnPropertyChanged(string propertyName)
     {
         PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }

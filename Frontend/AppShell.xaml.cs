@@ -10,10 +10,6 @@ namespace Frontend
 
         }
 
-        public void ToggleAdminPageVisibility(bool isVisible)
-        {
-            AdminMenu.IsVisible = isVisible;
-        }
 
 
 

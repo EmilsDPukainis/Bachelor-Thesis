@@ -18,13 +18,10 @@
 
             <Label
                 Text="Please check in/out or register"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="22"
-                
+                FontSize="22" 
                 HorizontalOptions="Center" />
             <Image
                 Source="dotnet_bot.svg"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
                 HeightRequest="200"
                 HorizontalOptions="Center" />
 

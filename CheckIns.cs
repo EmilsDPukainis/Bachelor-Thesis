@@ -23,30 +23,6 @@ namespace Shared.Models
         public string? Status { get; set; }
         public string? TotalHours { get; set; }
         public string? Location { get; set; }
-        public DateTime GetTotalHoursAsDateTime()
-        {
-            // Parse the Time string to DateTime using a specific format
-            return DateTime.ParseExact(TotalHours, "HH", CultureInfo.InvariantCulture);
-        }
-        public DateTime GetCheckInTimeAsDateTime()
-        {
-            // Parse the Time string to DateTime using a specific format
-            return DateTime.ParseExact(CheckInTime, "HH:mm", CultureInfo.InvariantCulture);
-        }
-
-        public DateTime GetCheckOutTimeAsDateTime()
-        {
-            // Parse the Time string to DateTime using a specific format
-            return DateTime.ParseExact(CheckOutTime, "HH:mm", CultureInfo.InvariantCulture);
-        }
-
-        // Method to convert Date string to DateTime object
-        public DateTime GetDateAsDateTime()
-        {
-            // Parse the Date string to DateTime using a specific format
-            return DateTime.ParseExact(CheckInDate, "dd-MM-yyyy", CultureInfo.InvariantCulture);
-        }
-
     }
 
 }

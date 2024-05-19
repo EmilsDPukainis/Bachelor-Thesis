@@ -16,7 +16,6 @@
           "Microsoft.EntityFrameworkCore.Tools": "7.0.7",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Swashbuckle.AspNetCore": "6.5.0",
-          "UraniumUI.Material": "2.5.6",
           "Xamarin.Essentials": "1.8.1"
         },
         "runtime": {
@@ -81,14 +80,6 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
-          }
-        }
-      },
-      "InputKit.Maui/4.3.5": {
-        "runtime": {
-          "lib/net7.0/InputKit.Maui.dll": {
-            "assemblyVersion": "4.3.5.0",
-            "fileVersion": "4.3.5.0"
           }
         }
       },
@@ -482,14 +473,6 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {
             "assemblyVersion": "2.2.0.0",
             "fileVersion": "2.2.1.1"
-          }
-        }
-      },
-      "Plainer.Maui/1.6.4": {
-        "runtime": {
-          "lib/net7.0/Plainer.Maui.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -918,29 +901,6 @@
           }
         }
       },
-      "UraniumUI/2.5.6": {
-        "dependencies": {
-          "InputKit.Maui": "4.3.5",
-          "Plainer.Maui": "1.6.4"
-        },
-        "runtime": {
-          "lib/net7.0/UraniumUI.dll": {
-            "assemblyVersion": "2.5.6.0",
-            "fileVersion": "2.5.6.0"
-          }
-        }
-      },
-      "UraniumUI.Material/2.5.6": {
-        "dependencies": {
-          "UraniumUI": "2.5.6"
-        },
-        "runtime": {
-          "lib/net7.0/UraniumUI.Material.dll": {
-            "assemblyVersion": "2.5.6.0",
-            "fileVersion": "2.5.6.0"
-          }
-        }
-      },
       "Xamarin.Essentials/1.8.1": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -987,13 +947,6 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
-    },
-    "InputKit.Maui/4.3.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-NWkw1m8HHjh6QrABkBVIdjC3/O5pUyhr2KLnrRe1KZ60kRT9vdVCSPpH0jKuTr359pTtWZCw0H9jAO5omUwZRA==",
-      "path": "inputkit.maui/4.3.5",
-      "hashPath": "inputkit.maui.4.3.5.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
@@ -1275,13 +1228,6 @@
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
     },
-    "Plainer.Maui/1.6.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-KnhR6iMFGqD1aI3o4LXpXQ1B0YnjR+sMf2Ce2bASdXIlV7PbSpOI43enEVvTE4MyFB7v+r0dQvfhqd/cyF5Ucw==",
-      "path": "plainer.maui/1.6.4",
-      "hashPath": "plainer.maui.1.6.4.nupkg.sha512"
-    },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "type": "package",
       "serviceable": true,
@@ -1533,20 +1479,6 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
-    },
-    "UraniumUI/2.5.6": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-cr+el0cdmbUw9NJ+1PDrjCZ0ZUUOt8ffDkAxvH8XwNkxry/STBzmYUk4Ju9WHzL1QkwlCHzfFIJr8iV+1Pm99w==",
-      "path": "uraniumui/2.5.6",
-      "hashPath": "uraniumui.2.5.6.nupkg.sha512"
-    },
-    "UraniumUI.Material/2.5.6": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-u/NtTSJnYagjbyDYKuaZ6LQ/1BzgpS0hnB2fhx9HXXCSdh+bsIQYF1kOty/LWcytV1TIXoJ0xVzbkMbL0nT6pw==",
-      "path": "uraniumui.material/2.5.6",
-      "hashPath": "uraniumui.material.2.5.6.nupkg.sha512"
     },
     "Xamarin.Essentials/1.8.1": {
       "type": "package",

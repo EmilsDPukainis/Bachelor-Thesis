@@ -26,18 +26,7 @@ namespace Shared.Models
 
         [NotMapped]
         public string FullName => $"{Name} {Surname} {Job}";
-        public DateTime GetTimeAsDateTime()
-        {
-            // Parse the Time string to DateTime using a specific format
-            return DateTime.ParseExact(Time, "HH:mm", CultureInfo.InvariantCulture);
-        }
-
-        // Method to convert Date string to DateTime object
-        public DateTime GetDateAsDateTime()
-        {
-            // Parse the Date string to DateTime using a specific format
-            return DateTime.ParseExact(Date, "dd-MM-yyyy", CultureInfo.InvariantCulture);
-        }
+        
     }
 
 }

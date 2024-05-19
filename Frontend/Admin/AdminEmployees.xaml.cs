@@ -1,7 +1,6 @@
 using Shared.Other;
 using Shared.Models;
 using Newtonsoft.Json;
-using System.Text.Json.Serialization;
 
 namespace Frontend
 {
@@ -42,7 +41,6 @@ namespace Frontend
 
             try
             {
-                // Fetch the user based on the selected name
                 var user = await GetUserByName(selectedEmployeeName);
                 if (user == null)
                 {
@@ -54,13 +52,12 @@ namespace Frontend
                     LoadEmployees();
                 }
 
-                // Use the fetched user's ID for deletion
                 var response = await _httpClient.DeleteAsync($"{ApiBaseUrl}/users/{user.Id}");
                 response.EnsureSuccessStatusCode();
 
                 await DisplayAlert("Success", $"Employee '{selectedEmployeeName}' removed successfully.", "OK");
 
-                LoadEmployees(); // Reload employees after deletion
+                LoadEmployees();
             }
             catch (Exception ex)
             {
@@ -72,7 +69,6 @@ namespace Frontend
         {
             try
             {
-                // Encode the name parameter before appending it to the URL
                 string encodedName = Uri.EscapeDataString(name);
                 var response = await _httpClient.GetAsync($"{ApiBaseUrl}/users?Name={encodedName}");
                 response.EnsureSuccessStatusCode();
@@ -80,7 +76,6 @@ namespace Frontend
                 var content = await response.Content.ReadAsStringAsync();
                 var users = JsonConvert.DeserializeObject<List<User>>(content);
 
-                // Filter users by name and return the first matching user
                 return users.FirstOrDefault(u => u.Name == name);
             }
             catch (Exception ex)

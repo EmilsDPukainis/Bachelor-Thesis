@@ -1,10 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Shared.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Backend.Controllers
 {
@@ -43,19 +39,17 @@ namespace Backend.Controllers
                     return BadRequest("Job title cannot be empty.");
                 }
 
-                // Check if the job already exists
+
                 var existingJob = await _context.Jobs.FirstOrDefaultAsync(j => j.Job == newJobTitle);
                 if (existingJob != null)
                 {
                     return Conflict("Job title already exists.");
                 }
 
-                // Add the new job to the database
                 var newJob = new Jobs { Job = newJobTitle };
                 _context.Jobs.Add(newJob);
                 await _context.SaveChangesAsync();
 
-                // Return the updated list of jobs
                 var jobs = await _context.Jobs.Select(j => j.Job).ToListAsync();
                 return Ok(jobs);
             }
@@ -91,12 +85,10 @@ namespace Backend.Controllers
         {
             try
             {
-                // Delete all existing jobs
                 var jobs = await _context.Jobs.ToListAsync();
                 _context.Jobs.RemoveRange(jobs);
                 await _context.SaveChangesAsync();
 
-                // Return an empty list of jobs
                 return Ok(new List<string>());
             }
             catch (Exception ex)
