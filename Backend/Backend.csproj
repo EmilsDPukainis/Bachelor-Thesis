@@ -10,7 +10,6 @@
     <Compile Include="..\AdminCode.cs" Link="AdminCode.cs" />
     <Compile Include="..\BaseURL.cs" Link="BaseURL.cs" />
     <Compile Include="..\CheckIns.cs" Link="CheckIns.cs" />
-    <Compile Include="..\Items.cs" Link="Items.cs" />
     <Compile Include="..\Jobs.cs" Link="Jobs.cs" />
     <Compile Include="..\Users.cs" Link="Users.cs" />
   </ItemGroup>

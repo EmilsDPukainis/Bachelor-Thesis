@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\epuka\source\repos\Bachelor\Frontend\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-19T12:14:29.843</Modified>
+      <Modified>2024-05-19T17:46:53.367</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\epuka\source\repos\Bachelor\Frontend\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-19T12:14:29.494</Modified>
+      <Modified>2024-05-19T17:46:53.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\epuka\source\repos\Bachelor\Frontend\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Frontend.runtimeconfig.json">
       <PackagePath>Frontend.runtimeconfig.json</PackagePath>
-      <Modified>2024-05-18T19:07:06.233</Modified>
+      <Modified>2024-05-19T17:46:52.895</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\epuka\source\repos\Bachelor\Frontend\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Frontend.dll">
       <PackagePath>Frontend.dll</PackagePath>
-      <Modified>2024-05-19T12:14:28.315</Modified>
+      <Modified>2024-05-19T17:46:51.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\epuka\source\repos\Bachelor\Frontend\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Frontend.exe</PackagePath>
-      <Modified>2024-05-19T12:14:28.333</Modified>
+      <Modified>2024-05-19T17:46:51.899</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\epuka\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.9\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -987,7 +987,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\epuka\source\repos\Bachelor\Frontend\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Frontend.deps.json">
       <PackagePath>Frontend.deps.json</PackagePath>
-      <Modified>2024-05-19T12:14:29.720</Modified>
+      <Modified>2024-05-19T17:46:53.243</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

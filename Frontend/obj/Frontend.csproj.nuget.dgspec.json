@@ -195,10 +195,6 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
-            "DevExpress.Maui.DataGrid": {
-              "target": "Package",
-              "version": "[23.1.6, )"
-            },
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.4, )"
