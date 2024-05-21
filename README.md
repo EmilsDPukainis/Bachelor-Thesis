@@ -1,5 +1,5 @@
 To make the application usable, these instructions need to be followed:
-1. Download Visual Studio 17.6.5 (https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history), if you have a newer version, it needs to be uninstalled.
+1. Download Visual Studio 17.6.5 professional or enterprise (https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history), if you have a newer version, it needs to be uninstalled.
 2. Install visual studio with the checked workplaces being the .NET development environment and the .NET Multi-platform App UI development.
 
 To run the actual application these steps need to be followed:
