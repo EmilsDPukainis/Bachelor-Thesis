@@ -5,5 +5,5 @@ To make the application usable, these instructions need to be followed:
 To run the actual application these steps need to be followed:
 1. Open the solution using the Bachelor.sln file and navigate to the Backend project.
 2. Open launchSettings.json which is in the Properties folder and follow the command line for applicationURL.
-3. Open the BaseURL file in shared.other and do the same as in he applicationURL.
+3. Open the BaseURL file in shared.other and do the same as in the applicationURL.
 4. Two ways of running the backend is to either in the solution properties set startup projects as backend and frontend, or in command prompt, use cd and address where the backend project folder is located ( cd C:\YourAddress ), after this write dotnet run and it will start the backend process, after which you can run only the frontend and use the application.
